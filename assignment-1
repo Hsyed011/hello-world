@@ -1,0 +1,22 @@
+class Main {  
+  public static void main(String args[]) { 
+    String name = "Hasan";
+    String email = "hsyed11@nyit.edu";
+    int id = 1292393;
+      
+    System.out.println("Name: " + name); 
+    System.out.println("Email: " + email);
+    System.out.println("ID: " + id);
+
+    add(3, 5);
+    add1(15);
+  } 
+
+  public static void add(int num1, int num2){
+    System.out.println(num1 + num2);
+  }
+
+  public static void add1(int num){
+    System.out.println(num + 1);
+  }
+}
